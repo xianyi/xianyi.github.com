@@ -16,7 +16,7 @@
 	<td align="right"><a href="index_cn.php"><p>中文版</p></a></td>
       </tr>
     </table>
-      <p>I'm a research associate at <a href="http://www.rdcps.ac.cn">Laboratory of Parallel Software and Computational Science, ISCAS</a>. Meanwhile, I'm a Ph.D. student and my supervisor is <a href="http://www.rdcps.ac.cn/~zyq">Dr. Zhang Yunquan</a>. My research interets focus on performance tuning about parallel software, GPU computing.</p>
+      <p>I'm a research associate at <a href="http://www.rdcps.ac.cn">Laboratory of Parallel Software and Computational Science, ISCAS</a>. Meanwhile, I'm a Ph.D. student and my supervisor is <a href="http://www.rdcps.ac.cn/~zyq">Dr. Zhang Yunquan</a>. My research interests focus on performance tuning about parallel software, GPU computing.</p>
     <p><b>Email</b>: xianyi (at) iscas (dot) ac (dot) cn</p>
 
     <hr>
