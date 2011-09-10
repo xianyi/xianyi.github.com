@@ -55,6 +55,7 @@
       <li><p>2001年9月-2005年7月，北京理工大学计算机科学工程系，本科</p></li>
       </ul>
     <hr>
+    <p><a href="http://weibo.com/1722170731?s=6uyXnP" target="_blank"><img border="0" src="http://service.t.sina.com.cn/widget/qmd/1722170731/813d76ea/1.png"/></a></p>
     <?php
 // Change to the name of the file
 $last_modified = filemtime("index_cn.php");
