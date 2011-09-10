@@ -7,19 +7,19 @@
   <body>
     <table  width="100%" >
       <tr>
-    <td><h1>张先轶</h1></td>
+	<td><h1>张先轶</h1></td>
 	<td align="right"><a href="index.php">English Version</a></td>
       </tr>
     </table>    
     <p><a href="http://www.rdcps.ac.cn">中科院软件所并行软件与计算科学实验室</a>，助理研究员，博士在读，导师：<a href="http://www.rdcps.ac.cn/~zyq">张云泉</a>研究员<br/>
-    <b>研究兴趣：</b>并行软件性能优化，GPU等异构加速计算<br/>
-    <b>Email</b>: xianyi (at) iscas (dot) ac (dot) cn</p>
+      <b>研究兴趣：</b>并行软件性能优化，GPU等异构加速计算<br/>
+      <b>Email</b>: xianyi (at) iscas (dot) ac (dot) cn</p>
 
     <hr>
     <h2 id="work">工作经验</h2>
     <ul>
-    <li><p>2010年1月-至今 中科院软件所，助理研究员</p></li>
-    <li><p>2007年7月-2009年12月 中科院软件所，研究实习员</p></li>
+      <li><p>2010年1月-至今 中科院软件所，助理研究员</p></li>
+      <li><p>2007年7月-2009年12月 中科院软件所，研究实习员</p></li>
     </ul>
     <hr>
     
@@ -41,28 +41,30 @@
     </ul>
     <hr>
     <h2 id="publication">文章</h2>
-          <li><B>Xianyi Zhang</B>,Yunquan Zhang, Xiangzheng Sun, Fangfang Liu, Shengfei Liu, Yuxin Tang, Yucheng Li, Automatic Performance Tuning of SpMV on GPGPU, HPC  Asia 2009.</li>
-      <li>Jing Wang, Yunquan Zhang, <B>Xianyi Zhang</B>, Xiangzheng Sun, Zelin Hu, Sujun Li, Rong Zeng, "QuantWiz: A Parallel Software Package for LC-MS-based Label-Free Protein Quantification," pp.683-687, 2009 11th IEEE International Conference on High Performance Computing and Communications, Seoul, Korea June 25-June 27,2009.</li>
-    <li>胡泽林, 张云泉, 王靖, <B>张先轶</B>, P-QuantWiz: 一种基于质谱的并行非标记定量软件，计算机工程与科学，2009年11期</li>
-    <li>程豪, 张云泉, <B>张先轶</B>，李玉成, CPU-GPU并行矩阵乘法的实现与性能分析, 计算机工程, 36卷, 13期, 2010</li>
-      <li>Wang Lei , Zhang Yunquan , <B>Zhang Xianyi</B>, Liu Fangfang, Accelerating Linpack Performance with Mixed Precision Algorithm on CPU+GPGPU Heterogeneous Cluster, 2010 10th IEEE International Conference on Computer and Information Technology, Bradford, UK, June 2010.</li>
-      <li><B>Xianyi Zhang</B>, Yunquan Zhang, Early Linpack Performance Benchmarking on IPE Mole-8.5 Fermi GPU Cluster, GTC 2010, San Jose, CA, USA, Sep 2010. (poster)</li>
+    <ul>
+      <li><p><B>Xianyi Zhang</B>,Yunquan Zhang, Xiangzheng Sun, Fangfang Liu, Shengfei Liu, Yuxin Tang, Yucheng Li, Automatic Performance Tuning of SpMV on GPGPU, HPC  Asia 2009.</p></li>
+      <li><p>Jing Wang, Yunquan Zhang, <B>Xianyi Zhang</B>, Xiangzheng Sun, Zelin Hu, Sujun Li, Rong Zeng, "QuantWiz: A Parallel Software Package for LC-MS-based Label-Free Protein Quantification," pp.683-687, 2009 11th IEEE International Conference on High Performance Computing and Communications, Seoul, Korea June 25-June 27,2009.</p></li>
+      <li><p>胡泽林, 张云泉, 王靖, <B>张先轶</B>, P-QuantWiz: 一种基于质谱的并行非标记定量软件，计算机工程与科学，2009年11期</p></li>
+      <li><p>程豪, 张云泉, <B>张先轶</B>，李玉成, CPU-GPU并行矩阵乘法的实现与性能分析, 计算机工程, 36卷, 13期, 2010</p></li>
+      <li><p>Wang Lei , Zhang Yunquan , <B>Zhang Xianyi</B>, Liu Fangfang, Accelerating Linpack Performance with Mixed Precision Algorithm on CPU+GPGPU Heterogeneous Cluster, 2010 10th IEEE International Conference on Computer and Information Technology, Bradford, UK, June 2010.</p></li>
+      <li><p><B>Xianyi Zhang</B>, Yunquan Zhang, Early Linpack Performance Benchmarking on IPE Mole-8.5 Fermi GPU Cluster, GTC 2010, San Jose, CA, USA, Sep 2010. (poster)</p></li>
+    </ul>
     <hr>
     <h2 id="education">教育经历</h2>
     <ul>
       <li><p>2010年9月-至今，中科院研究生院，计算机软件与理论专业，博士生在读</p></li>
       <li><p>2005年9月-2007年7月，北京理工大学计算机科学工程系，计算机系统结构专业，硕士</p></li>
       <li><p>2001年9月-2005年7月，北京理工大学计算机科学工程系，本科</p></li>
-      </ul>
+    </ul>
     <hr>
     <p><a href="http://weibo.com/1722170731?s=6uyXnP" target="_blank"><img border="0" src="http://service.t.sina.com.cn/widget/qmd/1722170731/813d76ea/1.png"/></a></p>
     <?php
-// Change to the name of the file
-$last_modified = filemtime("index_cn.php");
-// Display the results
-// eg. Last modified Monday, 27th October, 2003 @ 02:59pm
-print "Last modified " . date("l, dS F, Y @ h:ia", $last_modified) ;
-?> 
+       // Change to the name of the file
+       $last_modified = filemtime("index_cn.php");
+       // Display the results
+       // eg. Last modified Monday, 27th October, 2003 @ 02:59pm
+       print "Last modified " . date("l, dS F, Y @ h:ia", $last_modified) ;
+       ?> 
 
   </body>
 </html>
