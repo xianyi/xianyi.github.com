@@ -33,7 +33,7 @@
     <h2 id="software">开发的软件包</h2>
     <ul>
       <li><p><a href="http://xianyi.github.com/OpenBLAS">OpenBLAS</a></p></li>
-      <p>OpenBLAS 是基于 GotoBLAS2 1.13 BSD 版本的高性能BLAS库. 当前主要工作为针对龙芯3A CPU的性能优化，修正在X86平台上的错误. 计划未来针对新X86 CPU（Intel SandyBridge等）进行优化。</p>
+      <p>OpenBLAS 是基于 GotoBLAS2 1.13 BSD 版本的高性能BLAS库. 当前主要工作为针对龙芯3A CPU的性能优化，修正在X86平台上的错误. 计划未来针对新X86 CPU（Intel SandyBridge等）进行优化。<a href="http://openblas.blog.163.com">OpenBLAS中文博客</a></p>
       <li><p><a href="http://www.rdcps.ac.cn/GOSpMV">GOSpMV</a></p></li>
       <p>基于AMD Brook+语言的SpMV自适应优化软件包</p>
       <li><p><a href="http://mz-analyzer.sourceforge.net">MZ-Analyzer</a></p></li>
