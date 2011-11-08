@@ -1,6 +1,136 @@
 <html>
-<head></head>
-<body class="page_bg">
-Hello, today is <?php echo date('l, F jS, Y'); ?>.
-</body>
+  <head>
+    <title>Xianyi's Homepage</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <table  width="100%" >
+      <tr>
+    <td><h1>Zhang Xianyi</h1></td>
+    
+      
+	<!-- <td><a href="#software">Software Packages</a></td> -->
+	<!-- <td><a href="#publication">Publications</a></td> -->
+
+	<td align="right"><a href="index_cn.htm"><p>中文版</p></a></td>
+      </tr>
+    </table>
+      <p>I'm a research associate at <a href="http://www.rdcps.ac.cn">Laboratory of Parallel Software and Computational Science, ISCAS</a>. Meanwhile, I'm a Ph.D. student and my supervisor is <a href="http://www.rdcps.ac.cn/~zyq">Dr. Zhang Yunquan</a>. My research interests focus on performance tuning of parallel software and GPU computing.</p>
+    <p><b>Email</b>: xianyi (at) iscas (dot) ac (dot) cn</p>
+    <hr>
+    <h2 id="work">Work Experience</h2>
+    <ul>
+      <li><p>1/2010–present, Research Associate, Institute of Software, Chinese Academy of Sciences, Beijing, China</p></li>
+      <li><p>7/2007–12/2009, Engineer, Institute of Software, Chinese Academy of Sciences, Beijing, China</p></li>
+    </ul>
+    <hr>
+    <h2 id="project">Projects</h2>
+    <ul>
+      <li><p>2009.1-present, Research and Development of Compiler System and Toolchain for Domestic CPU (No.2009ZX01036-001-002), National S&ampT Major Projects: Core Electronic Devices, High-end General Chips and Fundamental Software, Institute of Software, Chinese Academy of Sciences</p></li>
+      <li><p>2008.1-present, Sub-project: High Performance LC-MS-based  Protein Quantification Software Package, the Knowledge Innovation Program of the Chinese Academy of Sciences (No.KGCX1-YW-13), Institute of Software ,Chinese Academy of Sciences</p></li>
+      <li><p>2009.1-2010.11, Sub-project: Optimization of Linpack on GPGPU Cluster, supported by Ministry of Finance under the Grant No. ZDYZ2008-2, Institute of Software, Chinese Academy of Sciences. (<I>IPE Mole-8.5 obtained No.19 on Top500 June 2010 list.</I>)</p></li>
+    </ul>
+    <hr>
+    <h2 id="software">Software Packages Developed</h2>
+    <ul>
+      <li><p><a href="http://xianyi.github.com/OpenBLAS">OpenBLAS</a></p></li>
+      <p>OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version. This library is under BSD License. Currently, we focus on tuning on ICT Loongson 3A MIPS64 CPU and fixing bugs on X86/X86_64 CPU. In the future, we will develop this library on new X86 CPU with AVX instructions.</p>
+      <li><p><a href="http://www.rdcps.ac.cn/GOSpMV">GOSpMV</a></p></li>
+      <p>Automatic tuning SpMV library on AMD Brook+</p>
+      <li><p><a href="http://mz-analyzer.sourceforge.net">MZ-Analyzer</a></p></li>
+      <p>MZ-Analyzer is a tool for visualization and analysis of multiple mass spectrometry data in 2D and 3D mode.</p>
+    </ul>
+    <hr>
+    <h2 id="publication">Publications</h2>
+    <ul>
+      <li><p><B>Xianyi Zhang</B>,Yunquan Zhang, Xiangzheng Sun, Fangfang Liu, Shengfei Liu, Yuxin Tang, Yucheng Li, Automatic Performance Tuning of SpMV on GPGPU, HPC  Asia 2009.</p></li>
+      <li><p>Jing Wang, Yunquan Zhang, <B>Xianyi Zhang</B>, Xiangzheng Sun, Zelin Hu, Sujun Li, Rong Zeng, "QuantWiz: A Parallel Software Package for LC-MS-based Label-Free Protein Quantification," pp.683-687, 2009 11th IEEE International Conference on High Performance Computing and Communications, Seoul, Korea June 25-June 27,2009.</p></li>
+      <li><p>Wang Lei , Zhang Yunquan , <B>Zhang Xianyi</B>, Liu Fangfang, Accelerating Linpack Performance with Mixed Precision Algorithm on CPU+GPGPU Heterogeneous Cluster, 2010 10th IEEE International Conference on Computer and Information Technology, Bradford, UK, June 2010.</p></li>
+      <li><p><B>Xianyi Zhang</B>, Yunquan Zhang, Early Linpack Performance Benchmarking on IPE Mole-8.5 Fermi GPU Cluster, GTC 2010, San Jose, CA, USA, Sep 2010. (poster)</p></li>
+    </ul>
+    <hr>
+    <h2 id="education">Education</h2>
+    <ul>
+      <li><p>9/2010-present, Computer Software and Theory, Ph.D. student, Graduate University of Chinese Academy of Sciences, Beijing, China</p></li>
+      <li><p>9/2005-7/2007, Computer Architecture, Dept. of Computer Science and Technology, Graduate School of Beijing Institute of Technology, M.E.</p></li>
+      <li><p>9/2001-7/2005, Dept. of Computer Science and Technology, Beijing Institute of Technology, B.E.</p></li>
+      </ul>
+    <hr>
+<p><div id="clustrmaps-widget"></div><script type="text/javascript">var _clustrmaps = {'url' : 'http://xianyi.github.com', 'user' : 951241, 'server' : '3', 'id' : 'clustrmaps-widget', 'version' : 1, 'date' : '2011-11-08', 'lang' : 'en', 'corners' : 'square' };(function (){ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'http://www3.clustrmaps.com/counter/map.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);})();</script><noscript><a href="http://www3.clustrmaps.com/user/ea7e83c9"><img src="http://www3.clustrmaps.com/stats/maps-no_clusters/xianyi.github.com-thumb.jpg" alt="Locations of visitors to this page" /></a></noscript></p>
+
+<script 
+  type="text/JavaScript" 
+  language="JavaScript">
+<!-- 
+//
+// format date as dd-mmm-yy
+// example: 12-Jan-99
+//
+function date_ddmmmyy(date)
+{
+  var d = date.getDate();
+  var m = date.getMonth() + 1;
+  var y = date.getYear();
+
+  // handle different year values 
+  // returned by IE and NS in 
+  // the year 2000.
+  if(y >= 2000)
+  {
+    y -= 2000;
+  }
+  if(y >= 100)
+  {
+    y -= 100;
+  }
+
+  // could use splitString() here 
+  // but the following method is 
+  // more compatible
+  var mmm = 
+    ( 1==m)?'Jan':( 2==m)?'Feb':(3==m)?'Mar':
+    ( 4==m)?'Apr':( 5==m)?'May':(6==m)?'Jun':
+    ( 7==m)?'Jul':( 8==m)?'Aug':(9==m)?'Sep':
+    (10==m)?'Oct':(11==m)?'Nov':'Dec';
+
+  return "" +
+    (d<10?"0"+d:d) + "-" +
+    mmm + "-" +
+    (y<10?"0"+y:y);
+}
+
+
+//
+// get last modified date of the 
+// current document.
+//
+function date_lastmodified()
+{
+  var lmd = document.lastModified;
+  var s   = "Unknown";
+  var d1;
+
+  // check if we have a valid date
+  // before proceeding
+  if(0 != (d1=Date.parse(lmd)))
+  {
+    s = "" + date_ddmmmyy(new Date(d1));
+  }
+
+  return s;
+}
+
+//
+// finally display the last modified date
+// as DD-MMM-YY
+//
+document.write( 
+  "This page was updated on " + 
+  date_lastmodified() );
+
+// -->
+</script>
+
+  </body>
 </html>

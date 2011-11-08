@@ -8,7 +8,7 @@
     <table  width="100%" >
       <tr>
 	<td><h1>张先轶</h1></td>
-	<td align="right"><a href="index.php">English Version</a></td>
+	<td align="right"><a href="index.htm">English Version</a></td>
       </tr>
     </table>    
     <p><a href="http://www.rdcps.ac.cn">中科院软件所并行软件与计算科学实验室</a>，助理研究员，博士在读，导师：<a href="http://www.rdcps.ac.cn/~zyq">张云泉</a>研究员<br/>
@@ -58,13 +58,78 @@
     </ul>
     <hr>
     <p><a href="http://weibo.com/1722170731?s=6uyXnP" target="_blank"><img border="0" src="http://service.t.sina.com.cn/widget/qmd/1722170731/813d76ea/1.png"/></a></p>
-    <?php
-       // Change to the name of the file
-       $last_modified = filemtime("index_cn.php");
-       // Display the results
-       // eg. Last modified Monday, 27th October, 2003 @ 02:59pm
-       print "Last modified " . date("l, dS F, Y @ h:ia", $last_modified) ;
-       ?> 
+<script 
+  type="text/JavaScript" 
+  language="JavaScript">
+<!-- 
+//
+// format date as dd-mmm-yy
+// example: 12-Jan-99
+//
+function date_ddmmmyy(date)
+{
+  var d = date.getDate();
+  var m = date.getMonth() + 1;
+  var y = date.getYear();
+
+  // handle different year values 
+  // returned by IE and NS in 
+  // the year 2000.
+  if(y >= 2000)
+  {
+    y -= 2000;
+  }
+  if(y >= 100)
+  {
+    y -= 100;
+  }
+
+  // could use splitString() here 
+  // but the following method is 
+  // more compatible
+  var mmm = 
+    ( 1==m)?'Jan':( 2==m)?'Feb':(3==m)?'Mar':
+    ( 4==m)?'Apr':( 5==m)?'May':(6==m)?'Jun':
+    ( 7==m)?'Jul':( 8==m)?'Aug':(9==m)?'Sep':
+    (10==m)?'Oct':(11==m)?'Nov':'Dec';
+
+  return "" +
+    (d<10?"0"+d:d) + "-" +
+    mmm + "-" +
+    (y<10?"0"+y:y);
+}
+
+
+//
+// get last modified date of the 
+// current document.
+//
+function date_lastmodified()
+{
+  var lmd = document.lastModified;
+  var s   = "Unknown";
+  var d1;
+
+  // check if we have a valid date
+  // before proceeding
+  if(0 != (d1=Date.parse(lmd)))
+  {
+    s = "" + date_ddmmmyy(new Date(d1));
+  }
+
+  return s;
+}
+
+//
+// finally display the last modified date
+// as DD-MMM-YY
+//
+document.write( 
+  "This page was updated on " + 
+  date_lastmodified() );
+
+// -->
+</script>
 
   </body>
 </html>
